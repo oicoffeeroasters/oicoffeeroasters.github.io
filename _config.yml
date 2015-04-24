@@ -1,0 +1,23 @@
+# Site settings
+title: Oi! Coffee Roasters
+email: oiroasters@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Import | Roast | Brew
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+markdown: rdiscount
+pygments: true
+auto: true
+
+ftp_host: 'oicoffeeroasters.com'
+ftp_dir: '/oicoffeeroasters'
+ftp_passive: false
+
+# optional
+ftp_port: 21                  # default 21
+ftp_username: 'oicoffeeroasters'     # default read from stdin
+ftp_password: 'Nepal2008' # default read from stdin
